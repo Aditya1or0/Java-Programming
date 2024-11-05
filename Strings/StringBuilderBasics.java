@@ -10,10 +10,10 @@ public class StringBuilderBasics{
 
         //set char at index 0
         sb.setCharAt(0,'P');
-        System.out.println(sb); //Output --Pony
-        //insert ch at inndex
+        System.out.println(sb); 
+        //insert ch at index
         sb.insert(3,'s');
-        System.out.println(sb);   //Output-->ponsy
+        System.out.println(sb);  
         sb.delete(2,5);
         System.out.println(sb);
         sb.append("sition"); 
